@@ -29,3 +29,12 @@ let func = new Function ([arg1[, arg2[, ...argN]],] functionBody)
 
 has access to global lexical enviroment
 
+**********************
+call -p 
+apply -p 
+1. class - object regular way 
+2. functional class write function instead of class 
+3. factory class create the object and return it, no need for new since object is being returned itself 
+4. prototype based classes , use chaining 
+***********************
+
