@@ -43,8 +43,10 @@
 
     };
 
-
-   console.log(laugh.sam());
+    laugh.prototype.sam = function () {  // wont work prototype works for classes 
+            console.log('not the other one ');
+    };
+laugh.sam();
     
 
 

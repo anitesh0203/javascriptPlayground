@@ -1,6 +1,6 @@
 let promise = new Promise(function(resolve,reject){
-    // resolve();
-    reject();
+     resolve();
+    //reject();
 });
 
 
@@ -14,3 +14,7 @@ promise.then(function() {
 }).catch(function(data) {
     console.log('error has occured',data);
 });
+
+function reason() {
+    console.log('iam the reason');
+}
